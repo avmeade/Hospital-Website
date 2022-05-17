@@ -1,0 +1,1 @@
+    document.title = "Light Labs Medical Center";

@@ -1,0 +1,409 @@
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+html {
+    font-family: "Merriweather Sans"; 
+    margin-bottom:0px;
+}
+body {
+    margin: 0px;
+}
+/*Table Styles*
+/
+table, th, td {
+    border: 1px solid black;
+    font-size: 35px;
+    text-align: right;
+    color: RGB(32, 87, 173);
+}
+table.schedule {
+    border: none;
+}
+table.schedule td {
+    border: none;
+    text-align: right;
+    padding-right: 15px;
+}
+td {
+    text-align-last: left;
+    color: RGB(32, 87, 173);
+}
+
+
+/*Div Classes*/
+div {
+    text-align: center;
+}
+div#firstDataRow.row{
+    margin-top: 50px;
+    padding-bottom:50px;
+    border-bottom: solid rgb(128, 128, 128);
+}
+div#chooseUsRow.row {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    border-bottom: solid rgb(128, 128, 128);
+}
+div#footerDiv1.row2{
+    background-color: rgb(216,227,240) ;
+    margin: auto;
+    
+}
+div#doctorPictures.row{
+    display: flex;
+    
+}
+div#logoIconRule.row {
+    margin-left: 0px;
+}
+div#boxClass.columnTop{
+    box-shadow: 5px 5px 30px 5px rgb(223, 223, 223);
+    margin: 80px;
+    padding:0;
+    border-radius: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;   
+}
+div.navigationBar{
+    background-color: rgb(54,112,179);
+}
+div#leftColumnBottom.column{
+    text-align: left;
+    padding-left:85px;
+}
+div#apptBook.column{
+    flex:33;
+}
+div#introParagraphCol.column{
+    flex:66;
+}
+div#bottomColumns.row{
+    background-color: rgb(46, 97, 171);
+    margin: 0;
+    padding: 0;
+}
+
+div#leftbottomColumn.column2{
+    margin-left:90px;
+    border-right: solid rgb(128, 128, 128);
+    border-right-width: 2px;
+    
+}
+div#otherBottomColumn.column2{
+    border-right: solid rgb(128, 128, 128);
+    border-right-width: 2px;
+}
+div#bottomColumnImages.columnTop{
+    margin-left:600px;
+    margin-right: 0;
+}
+div#imageRowColumn.column{
+    margin: 0px;
+    padding: 0px;
+}
+/*Text Formatting */
+
+/*Logo Text Formatting*/
+p#lightTitle {
+    font-family: Merriweather Sans;
+    color: RGB(240, 85, 37);
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+}
+strong#labTitle {
+    font-family: Merriweather Sans;
+    color: RGB(32, 87, 173);
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+}
+p#labTitle {
+    font-family: Merriweather Sans;
+    color: RGB(32, 87, 173);
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 1000;
+}
+p.footerInfo {
+    font-size: 35px;
+    color: RGB(32, 87, 173);
+    text-align: left;
+    padding: 0px;
+    padding-right:25px;
+    margin: 0;
+}
+p.subtxt1{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 55px;
+    margin-bottom: 0px;
+    color: rgb(112, 112, 112);
+}
+p.subtxt2{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding:0px;
+    margin-top: 0px;
+    margin-left: 55px;
+    margin-bottom: 0px;
+}
+p.chooseUsP {
+    font-size: 30px;
+    color: rgb(97, 95, 95);
+    text-align: left;
+}
+a{
+    margin-bottom: 0;
+    font-size: 35px;
+}
+p.chooseUsParagraph1 {
+    text-align: left;
+    font-size: 28px;
+    color: rgb(112, 112, 112);
+    font-weight:575;
+    padding-bottom: 20px;
+    margin-right: 15px;
+    width:auto;
+}
+p.infoBoxTxt{
+    font-size: 25px;
+    color: rgb(117,117,117);
+}
+/*Image Rules */
+img.infoBox{
+    padding-top:50px;
+    padding-left:35px;
+    padding-right:35px;
+    padding-bottom:20px;
+    height:225px;
+    width: 223px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 320px;
+    height: 350px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 320px;
+    height: 350px;
+}
+img.doc {
+    border-radius: 15px;
+    padding: 10px;
+}
+img.colorLogo {
+    width: 150px;
+    height: 175px;
+}
+img#moveIcon{
+    display: block;
+    position: relative;
+    top: 80px;
+}
+img#chooseImg {
+    height: auto;
+    width: 700px;
+    height: 650px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+/*Header stuff*/
+h1#chooseUsHeadingAlter.chooseUsHeading2{
+    border-bottom: solid rgb(128, 128, 128);
+}
+h1.subHeader{
+    font-size: 45px;
+    color: rgb(104, 104, 104);
+    margin-left: 950px;
+    margin-right: 950px;
+    padding-bottom: 20px;
+    border-bottom: solid rgb(128, 128, 128);
+    width:auto;
+}
+h1.bottomTitle{
+    font-size: 40px;
+}
+/*This is the heading for the Leading Light in Health care title*/
+h1.chooseUsHeading1 {
+    text-align: left;
+    font-size: 35px;
+    color: rgb(83, 83, 83);
+    border-bottom: solid rgb(128, 128, 128);
+    padding-bottom: 20px;
+    margin-right: 15px;
+}
+/*This is the heading for the Leading Light in Health care paragraph*/
+h1.chooseUsHeading2 {
+    text-align: left;
+    font-size: 65px;
+    color: rgb(104, 104, 104);
+    padding-bottom: 20px;
+}
+h1.infoBoxHeader{
+    font-size: 40px;
+    color: rgb(117,117,117);
+}
+h2.chooseUsHeading1 {
+    text-align: left;
+    font-size: 30px;
+    color: rgb(117, 117, 117);
+    margin-bottom: 0px;
+    margin-left: 55px;
+}
+h2.chooseUsHeading2 {
+    text-align: left;
+    font-size: 30px;
+    color: rgb(117, 117, 117);
+    margin-bottom: 0px;
+}
+h3.bottomColumnTxt{
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+/*Not sure what these do */
+#theform {
+    display: inline-block;
+}
+
+#theresults {
+    display: inline-block;
+}
+
+#theleft {
+    float: left;
+    padding-right: 20px;
+}
+
+#theright {
+    float: right;
+}
+
+
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+/*Image grid css*/
+.row {
+    display: flex;
+    padding: 0 4px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+/* 4 column layout */
+.row2 {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+.column2 {
+    float: left;
+    flex: 25%;
+    margin-bottom:50px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    width: 100%;
+}
+/* 4 column end*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*Top Columns*/
+.rowTop {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(54,112,179);
+    float: left;
+    width: 100%;
+    transform: translate(0px, -15px);
+}
+/* Create 3 equal columns that sit next to each other */
+.columnTop {
+    flex: 33%;
+}
+.columnTopAdjust {
+    flex: 33%;
+    display: block;
+    position: relative;
+    left: 90px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(253, 253, 253);
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: Merriweather Sans;
+    width: 1100px;
+    margin: 0 auto;
+}
+li {
+    float: left;
+    list-style-type: none;
+}
+li a {
+    display: block;
+    color: rgb(97, 95, 95);
+    text-align: center;
+    padding: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: rgb(165, 162, 162);
+    border-bottom: 3px solid rgb(83, 83, 83);
+}
+button#donateBtn {
+    color: white;
+    font-size: 25px;
+    background-color: rgb(253, 60, 1);
+    border-radius: 12px;
+    padding: 15px;
+    width: 200px;
+    margin-top: 50px;
+}
+button#donateBtn2 {
+    color: white;
+    font-size: 25px;
+    background-color: rgb(253, 60, 1);
+    border-radius: 12px;
+    padding: 15px;
+    width: 200px;
+}
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ul.navigationBarList{
+    position:relative;
+    top:20px;
+    box-shadow: 5px 5px 30px 5px rgb(47, 47, 47);
+    width: 2050px;
+}
+
+
